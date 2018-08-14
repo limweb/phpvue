@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    Home page
+    <img src="../assets/logo.png" />
+    Home page 12346
   </div>
 </template>
 
