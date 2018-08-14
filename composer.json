@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jacwright/restserver": "^1.2"
+    }
+}

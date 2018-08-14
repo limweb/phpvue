@@ -1,8 +1,15 @@
-import Vue from 'vue'
-import App from './App.vue'
-
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App)
-}).$mount('#app')
+import Vue from 'vue/dist/vue.esm.browser.js';
+window.Vue = Vue;
+import router from './router';
+// import store from './store';
+// import App from "./App";
+// store,
+window.vm = new Vue({
+    router,
+    data() {
+        return {
+            msg: 'TEST MSG'
+        }
+    },
+    el: "#app",
+})
